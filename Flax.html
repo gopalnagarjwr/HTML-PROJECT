@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in page</title>
+    <style>
+        .a {
+            margin-left: 200px;
+
+        }
+
+        #s {
+            height: 500px;
+        }
+
+        h1 {
+            color: green;
+            margin: 80px;
+            text-align: center;
+            font-size: 50px;
+
+        }
+
+        .m {
+            display: flex;
+            margin-top: 50px;
+            margin-left: 250px;
+        }
+
+        .i {
+            margin: 3px 0px 30px 3px;
+            padding: 10px 180px 10px 2px;
+            border-radius: 5px;
+            border: 1px solid black;
+            outline: none;
+
+        }
+
+        .i::placeholder {
+
+            padding: 5px;
+        }
+
+        .i:focus {
+
+            border: 2px solid rgb(43, 78, 43);
+
+        }
+
+        #n {
+            text-align: center;
+            padding: 10px 150px;
+            color: white;
+            border: none;
+            background-color: rgb(43, 78, 43);
+            cursor: pointer;
+        }
+
+        #n:hover {
+
+            background-color: rgb(69, 116, 69);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="m">
+        <div><img src="Entorno-Green-Logo.png" id="s"></div>
+        <div class="a">
+            <div>
+                <h1>Log In</h1>
+            </div>
+
+            <div>Username *</div>
+            <div>
+                <input type="text" placeholder="Enter your email" class="i"  autofocus>
+            </div>
+            <div>Password *</div>
+            <form action="/done/">
+                <div>
+                    <input type="password" placeholder="password" class="i">
+                </div>
+                <div>
+                    <button id="n"> <b> Submit </b></button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
